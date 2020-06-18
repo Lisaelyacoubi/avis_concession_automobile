@@ -1,0 +1,77 @@
+/* COMMON */
+* {
+    font-family: 'Myriad Pro Regular'!important, sans-serif;
+}
+
+
+/* HEADER */
+.image-header {
+  background: no-repeat url("images/header/header.png");
+  background-size: cover;
+  height: 802px;
+  width: 100%;
+}
+
+.hamburger-icon {
+  height: 38px;
+  width: 100%;
+}
+
+.logo {
+  width: 100%;
+}
+
+.opacity {
+  background-color: rgba(26, 26, 26, 0.4);
+}
+
+
+.titre-header {
+  font-family: 'Fjalla One'!important, sans-serif;
+  padding-top: 500px;
+}
+
+/* SECTION QUI SOMMES NOUS */
+.bg-qui-sommes-nous {
+  background-color: #262626;
+}
+
+.titre-qui-sommes-nous {
+  font-size: 36px;
+  color: #eb2525!important;
+}
+
+.car-icon{
+  height: 72px;
+  width: 60px;
+}
+
+.bg-photo-presentation {
+  background: no-repeat url("images/Qui_Sommes_Nous/photo-presentation.png");
+  background-size: cover;
+  background-position: center;
+  height: 730px;
+  width:70%;
+
+}
+
+li {
+  list-style: none;
+}
+
+.overlay-presentation {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #b74245;
+}
+
+.hover-presentation:hover .overlay-presentation {
+  opacity: 0.6;
+}
