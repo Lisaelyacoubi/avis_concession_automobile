@@ -33,7 +33,7 @@
     </div>
   </div>
   <div class="text-center border-top-footer pt-5 pb-5">
-    <p class="color-red-footer font-size-horaires ">© 2017-2018 Sport Design Automobiles - Une création IZIASYS Communication - Mentions légales - Politique de confidentialité</p>
+    <p class="color-red-footer font-size-horaires">© 2017-2018 Sport Design Automobiles - Une création IZIASYS Communication - Mentions légales - Politique de confidentialité</p>
   </div>
 </footer>
 
