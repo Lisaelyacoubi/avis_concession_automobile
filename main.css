@@ -82,7 +82,7 @@ li {
 
 /* FOOTER */
 
-.container {
+.container-fluid {
   max-width: 1575px!important;
 }
 
@@ -200,4 +200,41 @@ li {
 
 #carousel {
   padding-top: 300px;
+}
+
+
+/* FORM */
+.bg-image-form {
+  background: no-repeat url('images/Form/photo-form.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 990px;
+}
+
+.border-fom {
+  border: none!important;
+  border-bottom: 1px solid #ffffff!important;
+}
+
+.margin-stars {
+  margin-left: -100px;
+}
+
+::placeholder {
+  color: #ffffff!important;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+input{
+  padding: 20px;
+}
+
+textarea {
+  padding: 20px;
+}
+
+.size-text-form {
+  font-size: 36px;
 }

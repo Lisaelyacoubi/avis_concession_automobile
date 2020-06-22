@@ -4,7 +4,7 @@ include('header.php');
 
 <!-- Start Qui sommes nous -->
 <section class="bg-qui-sommes-nous">
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
       <div class="col-lg-5">
         <h2 class="titre-qui-sommes-nous text-white pb-5 pt-5">Qui sommes-nous ?</h2>
@@ -125,25 +125,26 @@ include('header.php');
 </section>
 <!-- End Qui sommes nous -->
 
-<!-- Start  -->
+<!-- Start Avis -->
 <section class="bg-qui-sommes-nous bg-image">
   <!--CAROUSEL-->
     <div id="carousel" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target=".carousel" data-slide-to="0" class="active"> </li>
-      <li data-target=".carousel" data-slide-to="1"></li>
-      <li data-target=".carousel" data-slide-to="2"></li>
-      <li data-target=".carousel" data-slide-to="3"></li>
-      <li data-target=".carousel" data-slide-to="4"></li>
-      <li data-target=".carousel" data-slide-to="5"></li>
-      <li data-target=".carousel" data-slide-to="6"></li>
-    </ol>
+      <ol class="carousel-indicators">
+        <li data-target=".carousel" data-slide-to="0" class="active"> </li>
+        <li data-target=".carousel" data-slide-to="1"></li>
+        <li data-target=".carousel" data-slide-to="2"></li>
+        <li data-target=".carousel" data-slide-to="3"></li>
+        <li data-target=".carousel" data-slide-to="4"></li>
+        <li data-target=".carousel" data-slide-to="5"></li>
+        <li data-target=".carousel" data-slide-to="6"></li>
+      </ol>
     <div class="carousel-inner carousel-position-avis">
       <div class="carousel-item active">
         <div class="icone-quote">
           <img src="images/Avis/icone-quote.png" alt="icone-quote">
         </div>
         <p class="border-avis margin-auto-avis">
+          <img src="images/Avis/icone-voiture.png" alt="icone-voiture">
           <span class="text-dark">Renault - Clio</span><br><br><br>
           <span class="text-dark">« J’ai acheté ma nouvelle voiture chez Sport Design Automobiles
            il y a quelques semaines, rapidité et efficacité dans la recherche,
@@ -157,6 +158,7 @@ include('header.php');
           <img src="images/Avis/icone-quote.png" alt="icone-quote">
         </div>
         <p class="border-avis margin-auto-avis">
+          <img src="images/Avis/icone-voiture.png" alt="icone-voiture">
           <span class="text-dark">Renault - Clio</span><br><br><br>
           <span class="text-dark">« J’ai acheté ma nouvelle voiture chez Sport Design Automobiles
            il y a quelques semaines, rapidité et efficacité dans la recherche,
@@ -170,6 +172,7 @@ include('header.php');
           <img src="images/Avis/icone-quote.png" alt="icone-quote">
         </div>
         <p class="border-avis margin-auto-avis">
+          <img src="images/Avis/icone-voiture.png" alt="icone-voiture">
           <span class="text-dark">Renault - Clio</span><br><br><br>
           <span class="text-dark">« J’ai acheté ma nouvelle voiture chez Sport Design Automobiles
            il y a quelques semaines, rapidité et efficacité dans la recherche,
@@ -183,6 +186,7 @@ include('header.php');
           <img src="images/Avis/icone-quote.png" alt="icone-quote">
         </div>
         <p class="border-avis margin-auto-avis">
+          <img src="images/Avis/icone-voiture.png" alt="icone-voiture">
           <span class="text-dark">Renault - Clio</span><br><br><br>
           <span class="text-dark">« J’ai acheté ma nouvelle voiture chez Sport Design Automobiles
            il y a quelques semaines, rapidité et efficacité dans la recherche,
@@ -196,6 +200,7 @@ include('header.php');
           <img src="images/Avis/icone-quote.png" alt="icone-quote">
         </div>
         <p class="border-avis margin-auto-avis">
+          <img src="images/Avis/icone-voiture.png" alt="icone-voiture">
           <span class="text-dark">Renault - Clio</span><br><br><br>
           <span class="text-dark">« J’ai acheté ma nouvelle voiture chez Sport Design Automobiles
            il y a quelques semaines, rapidité et efficacité dans la recherche,
@@ -209,6 +214,7 @@ include('header.php');
           <img src="images/Avis/icone-quote.png" alt="icone-quote">
         </div>
         <p class="border-avis margin-auto-avis">
+          <img src="images/Avis/icone-voiture.png" alt="icone-voiture">
           <span class="text-dark">Renault - Clio</span><br><br><br>
           <span class="text-dark">« J’ai acheté ma nouvelle voiture chez Sport Design Automobiles
            il y a quelques semaines, rapidité et efficacité dans la recherche,
@@ -222,6 +228,7 @@ include('header.php');
           <img src="images/Avis/icone-quote.png" alt="icone-quote">
         </div>
         <p class="border-avis margin-auto-avis">
+          <img src="images/Avis/icone-voiture.png" alt="icone-voiture">
           <span class="text-dark">Renault - Clio</span><br><br><br>
           <span class="text-dark">« J’ai acheté ma nouvelle voiture chez Sport Design Automobiles
            il y a quelques semaines, rapidité et efficacité dans la recherche,
@@ -240,7 +247,81 @@ include('header.php');
   </div>
   <!--END CAROUSEL-->
 </section>
-<!-- End  -->
+<!-- End Avis-->
+
+<!-- Start Form -->
+<section class="bg-image-form">
+  <div class="container pt-5">
+    <h3 class="text-uppercase color-red-footer size-text-form">Votre avis nous intéresse !</h3>
+  </div>
+  <div class="container">
+    <div class="row pt-4">
+        <div class="col text-uppercase text-white">
+            <div class="form-example pb-4">
+              <input type="text" id="name" name="name" required
+                 minlength="4" maxlength="20" size="40" class="bg-transparent border-fom" placeholder="nom">
+            </div>
+            <div class="form-example pb-4">
+              <input type="email" name="email" id="email"  size="40" required class="bg-transparent border-fom" placeholder="email">
+            </div>
+            <div class="form-example pb-4">
+              <textarea rows = "15" cols = "40" name = "description" class="bg-transparent border-fom" placeholder="message"></textarea>
+            </div>
+            <div class="form-example pb-4">
+              <button type="button" class="btn btn-outline-danger text-uppercase size-text-form mt-4">Envoyer</button>
+            </div>
+          </div>
+          <div class="col-lg-6 text-uppercase text-white">
+            <div class="form-example pb-4">
+              <input type="text" id="marque" name="marque" required
+                 minlength="4" maxlength="20" size="40" class="bg-transparent border-fom" placeholder="marque">
+            </div>
+            <div class="form-example pb-4">
+              <input type="text" id="modele" name="modele" required
+                 minlength="4" maxlength="20" size="30" class="bg-transparent border-fom" placeholder="modele">
+            </div>
+            <h6 class="text-uppercase text-white size-text-form pt-4 pl-4">Qualité de notre accueil</h6>
+              <ul class="d-flex flex-row justify-content-center margin-stars  pb-5">
+                <li>
+                  <span><img src="images/Form/star-red.png" alt="star-red" class="mr-4"></span>
+                </li>
+                <li>
+                  <span><img src="images/Form/star-red.png" alt="star-red" class="mr-4"></span>
+                </li>
+                <li>
+                  <span><img src="images/Form/star-red.png" alt="star-red" class="mr-4"></span>
+                </li>
+                <li>
+                  <span><img src="images/Form/star-red.png" alt="star-red" class="mr-4"></span>
+                </li>
+                <li>
+                  <span><img src="images/Form/star-white.png" alt="star-white" class="mr-4"></span>
+                </li>
+              </ul>
+              <h6 class="text-uppercase text-white size-text-form pl-4">Nos infrastructures</h6>
+                <ul class="d-flex flex-row justify-content-center margin-stars">
+                  <li>
+                    <span><img src="images/Form/star-red.png" alt="star-red" class="mr-4"></span>
+                  </li>
+                  <li>
+                    <span><img src="images/Form/star-red.png" alt="star-red" class="mr-4"></span>
+                  </li>
+                  <li>
+                    <span><img src="images/Form/star-red.png" alt="star-red" class="mr-4"></span>
+                  </li>
+                  <li>
+                    <span><img src="images/Form/star-red.png" alt="star-red" class="mr-4"></span>
+                  </li>
+                  <li>
+                    <span><img src="images/Form/star-white.png" alt="star-white" class="mr-4"></span>
+                  </li>
+                </ul>
+              </div>
+              <!-- Fin div row -->
+            </div>
+          </div>
+        </section>
+    <!-- End Form -->
 
 
   <?php

@@ -1,5 +1,5 @@
 <footer class="bg-footer">
-  <div class="container pt-5">
+  <div class="container-fluid pt-5">
     <div class="row pb-5">
       <div class="col-lg-3">
         <a href="#"><img src="images/header/logo.png" alt="logo"></a><br><br><br>
