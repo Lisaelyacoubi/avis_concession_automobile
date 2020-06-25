@@ -126,7 +126,7 @@ include('header.php');
 <!-- End Qui sommes nous -->
 
 <!-- Start Avis -->
-<section class="bg-image">
+<section class="bg-qui-sommes-nous bg-image">
   <!--CAROUSEL-->
     <div id="carousel" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
