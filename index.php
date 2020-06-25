@@ -6,7 +6,7 @@ include('header.php');
 <section class="bg-qui-sommes-nous">
   <div class="container-fluid">
     <div class="row ">
-      <div class="col-lg-5 bg-lines-qui-sommes-nous-mobile">
+      <div class="col-lg-5 bg-lines-qui-sommes-nous-mobile pb-3">
         <h2 class="titre-qui-sommes-nous text-white pb-5 pt-5">Qui sommes-nous ?</h2>
         <p class="text-white paragraphe-size-qui-sommes-nous">Sport Design Automobiles est une jeune société spécialisée
         dans la recherche personnalisée de véhicule toute marque,
@@ -26,8 +26,8 @@ include('header.php');
       </div>
       <div class="col-lg-7 hover-presentation bg-photo-presentation text-center">
           <div class="text-center overlay-presentation">
-            <h3 class="d-inline-block text-uppercase text-white text-center">l'avis de nos clients</h2>
-              <img src="images/Qui_Sommes_Nous/car.png" alt="car" class="car-icon">
+            <h3 class="d-inline-block text-uppercase text-white text-center pt-5">l'avis de nos clients</h2>
+              <img src="images/Qui_Sommes_Nous/car.png" alt="car" class="car-icon"><br><br>
             <h4 class="text-uppercase text-white">qualité de notre accueil</h4>
               <ul class="d-flex flex-row justify-content-center">
                 <li>
@@ -120,9 +120,104 @@ include('header.php');
               </ul>
             </div>
           </div>
-        </div>
-  </div>
-</section>
+          <!-- MOBILE VERSION -->
+          <div class="bg-notes notes-mobile-version text-center pt-5">
+            <div class="opacity-text-notes div-notes">
+              <h4 class="text-uppercase text-white title-notes-size mt-2 pt-2">qualité de notre accueil</h4>
+                <ul class="d-flex flex-row justify-content-center">
+                  <li>
+                    <span><img src="images/Qui_Sommes_Nous/star-black.png" alt="star-black" class="star-width mr-2 "></span>
+                  </li>
+                  <li>
+                    <span><img src="images/Qui_Sommes_Nous/star-black.png" alt="star-black" class="star-width mr-2"></span>
+                  </li>
+                  <li>
+                    <span><img src="images/Qui_Sommes_Nous/star-black.png" alt="star-black" class="star-width mr-2"></span>
+                  </li>
+                  <li>
+                    <span><img src="images/Qui_Sommes_Nous/star-black.png" alt="star-black" class="star-width mr-2"></span>
+                  </li>
+                  <li>
+                    <span><img src="images/Qui_Sommes_Nous/star-white.png" alt="star-white" class="star-width mr-5"></span>
+                  </li>
+                </ul>
+                <h4 class="text-uppercase text-white title-notes-size">nos infrastructures</h4>
+                  <ul class="d-flex flex-row justify-content-center">
+                    <li>
+                      <span><img src="images/Qui_Sommes_Nous/star-black.png" alt="star-black" class="star-width mr-2"></span>
+                    </li>
+                    <li>
+                      <span><img src="images/Qui_Sommes_Nous/star-black.png" alt="star-black" class="star-width mr-2"></span>
+                    </li>
+                    <li>
+                      <span><img src="images/Qui_Sommes_Nous/star-black.png" alt="star-black" class="star-width mr-2"></span>
+                    </li>
+                    <li>
+                      <span><img src="images/Qui_Sommes_Nous/star-black.png" alt="star-black" class="star-width mr-2"></span>
+                    </li>
+                    <li>
+                      <span><img src="images/Qui_Sommes_Nous/star-white.png" alt="star-white" class="star-width mr-5"></span>
+                    </li>
+                  </ul>
+                  <h4 class="text-uppercase text-white title-notes-size">notre professionnalisme</h4>
+                    <ul class="d-flex flex-row justify-content-center">
+                      <li>
+                        <span><img src="images/Qui_Sommes_Nous/star-black.png" alt="star-black" class="star-width mr-2"></span>
+                      </li>
+                      <li>
+                        <span><img src="images/Qui_Sommes_Nous/star-black.png" alt="star-black" class="star-width mr-2"></span>
+                      </li>
+                      <li>
+                        <span><img src="images/Qui_Sommes_Nous/star-black.png" alt="star-black" class="star-width mr-2"></span>
+                      </li>
+                      <li>
+                        <span><img src="images/Qui_Sommes_Nous/star-black.png" alt="star-black" class="star-width mr-2"></span>
+                      </li>
+                      <li>
+                        <span><img src="images/Qui_Sommes_Nous/star-white.png" alt="star-white" class="star-width mr-5"></span>
+                      </li>
+                    </ul>
+                    <h4 class="text-uppercase text-white title-notes-size">suivi de commande</h4>
+                      <ul class="d-flex flex-row justify-content-center">
+                        <li>
+                          <span><img src="images/Qui_Sommes_Nous/star-black.png" alt="star-black" class="star-width mr-2"></span>
+                        </li>
+                        <li>
+                          <span><img src="images/Qui_Sommes_Nous/star-black.png" alt="star-black" class="star-width mr-2"></span>
+                        </li>
+                        <li>
+                          <span><img src="images/Qui_Sommes_Nous/star-black.png" alt="star-black" class="star-width mr-2"></span>
+                        </li>
+                        <li>
+                          <span><img src="images/Qui_Sommes_Nous/star-black.png" alt="star-black" class="star-width mr-2"></span>
+                        </li>
+                        <li>
+                          <span><img src="images/Qui_Sommes_Nous/star-white.png" alt="star-white" class="star-width mr-5"></span>
+                        </li>
+                      </ul>
+                      <h4 class="text-uppercase text-white title-notes-size">véhicule à la livraison</h4>
+                        <ul class="d-flex flex-row justify-content-center">
+                          <li>
+                            <span><img src="images/Qui_Sommes_Nous/star-black.png" alt="star-black" class="star-width mr-2"></span>
+                          </li>
+                          <li>
+                            <span><img src="images/Qui_Sommes_Nous/star-black.png" alt="star-black" class="star-width mr-2"></span>
+                          </li>
+                          <li>
+                            <span><img src="images/Qui_Sommes_Nous/star-black.png" alt="star-black" class="star-width mr-2"></span>
+                          </li>
+                          <li>
+                            <span><img src="images/Qui_Sommes_Nous/star-black.png" alt="star-black" class="star-width mr-2"></span>
+                          </li>
+                          <li>
+                            <span><img src="images/Qui_Sommes_Nous/star-white.png" alt="star-white" class="star-width mr-5"></span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
 <!-- End Qui sommes nous -->
 
 <!-- Start Avis -->

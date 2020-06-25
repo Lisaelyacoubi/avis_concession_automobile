@@ -82,6 +82,29 @@ li {
   opacity: 0.6;
 }
 
+
+.bg-notes {
+  background: no-repeat url("images/Qui_Sommes_Nous/notes-mobile.png");
+  background-size: cover;
+  height: 387px;
+  width: 100%;
+}
+
+.star-width {
+  height: 15px;
+  width: 15px;
+}
+
+.title-notes-size {
+  font-size: 14px;
+}
+
+.opacity-text-notes {
+  background-color: rgba(26, 26, 26, 0.5);
+}
+
+
+
 /* FOOTER */
 
 .container-fluid {
@@ -251,6 +274,11 @@ textarea {
   .footer-mobile {
     display: none;
   }
+
+  .notes-mobile-version {
+    display: none
+  }
+
 }
 
 @media (max-width: 991px) {
